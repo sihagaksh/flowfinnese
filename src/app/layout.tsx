@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { ThemeProvider } from "../components/theme/theme-provider"
+import { Kodchasan } from 'next/font/google';
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+import Navbar from "@/components/header/header";
+import Footer from "@/components/footer/footer";
+const kodchasan = Kodchasan({
+  subsets: ['latin'], // Specify the subsets you need
+  weight: ['400', '700'], // Choose weights
+  variable: '--font-kodchasan', // CSS variable name for Tailwind
 });
 
 export const metadata: Metadata = {
@@ -25,9 +23,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${kodchasan.className} ${kodchasan.variable} antialiased`}
       >
+        <ThemeProvider attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange>
+          <Navbar />
         {children}
+        <Footer/>
+        </ThemeProvider>
       </body>
     </html>
   );
