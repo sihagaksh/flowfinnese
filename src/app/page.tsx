@@ -7,16 +7,17 @@ const App = () => {
   return(
     <>
     <section>
-        <MaxWidthWrapper className="h-screen w-screen flex items-center justify-center">
+        <MaxWidthWrapper className="h-[calc(100vh-64px)] w-full flex items-center justify-center">
          <section className="h-full lg:w-3/5 w-full flex flex-col items-center justify-center">
-         <h1 className="text-4xl -mt-44 leading-loose lg:text-left text-center lg:text-6xl" style={{lineHeight: "1.6"}}>
+         <h1 className="text-4xl -mt-36 leading-loose lg:text-left text-center lg:text-6xl" style={{lineHeight: "1.6"}}>
           Split Expenses made
           {" "}
+          <br className="block lg:hidden"/>
           <span className="text-white bg-green-600 dark:bg-rose-500">Simple</span>
           {" "}
           Together
           </h1>
-            <p className="mt-8 w-full text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
+            <p className="mt-8 w-full lg:text-lg text-md lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
                  Manage shared expenses with ease. Split bills, track spending, and,{" "}
                 <span className="font-semibold">settle up seamlessly</span> with friends and family.
                 Flow Finesse helps you effortlessly manage and settle shared expenses with ease.
@@ -36,7 +37,7 @@ const App = () => {
                   </li>
                 </div>
               </ul>
-              <div className="mt-12 flex flex-col w-full sm:flex-row items-center sm:items-start gap-5">
+              <div className="mt-12 flex flex-col w-full lg:flex-row items-center lg:items-start gap-5">
                 <div className="flex -space-x-4">
                   <img
                     src="/users/user-1.png"
@@ -78,7 +79,8 @@ const App = () => {
               </div>
 
          </section>
-         <section className="h-full w-0 lg:w-2/5"></section>
+         <section className="h-full w-0 lg:w-2/5">
+         </section>
         </MaxWidthWrapper>
       </section>
       

@@ -163,7 +163,7 @@ const TexturedTriangles = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-0 left-0 w-0 h-0 border-r-[50vw] border-b-[100vh] border-transparent border-b-gray-800 overflow-hidden",
+                className: "absolute bottom-0 left-0 w-0 h-0 border-r-[50vw] border-b-[75vh] lg:border-b-[calc(100vh-64px)] border-transparent border-b-gray-800 overflow-hidden",
                 style: {
                     backgroundImage: `url("${noisePattern}")`,
                     backgroundBlendMode: 'overlay',
@@ -185,7 +185,7 @@ const TexturedTriangles = ()=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-0 right-0 w-0 h-0 border-l-[50vw] border-b-[100vh] border-transparent border-b-gray-800 overflow-hidden",
+                className: "absolute bottom-0 right-0 w-0 h-0 border-l-[50vw] border-b-[75vh] lg:border-b-[calc(100vh-64px)] border-transparent border-b-gray-800 overflow-hidden",
                 style: {
                     backgroundImage: `url("${noisePattern}")`,
                     backgroundBlendMode: 'overlay',
@@ -231,13 +231,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 const Footer = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "w-screen h-screen relative",
+        className: "h-[calc(100vh-64px)] relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$MaxWidthWrapper$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                className: "w-screen h-screen flex flex-col justify-center items-center",
+                className: "h-full flex flex-col justify-center items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "text-7xl text-green-600 dark:text-rose-600",
+                        className: "lg:text-7xl text-6xl text-green-600 dark:text-rose-600",
                         children: "FLOW FINESSE"
                     }, void 0, false, {
                         fileName: "[project]/src/components/footer/footer.tsx",
@@ -245,9 +245,19 @@ const Footer = ()=>{
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "max-w-3xl mt-16 text-center",
-                        children: "Our platform simplifies splitting bills and tracking shared expenses with friends or groups. Easily add expenses, and we'll handle the calculations. Stay organized and keep everyone on the same page with real-time updates."
-                    }, void 0, false, {
+                        className: "max-w-3xl mt-16 text-center lg:text-lg text-md",
+                        children: [
+                            "Our platform simplifies splitting bills and tracking shared expenses with friends or groups. ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
+                                className: "lg:block hidden"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/footer/footer.tsx",
+                                lineNumber: 10,
+                                columnNumber: 110
+                            }, this),
+                            "Easily add expenses, and we'll handle the calculations. Stay organized and keep everyone on the same page with real-time updates."
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/footer/footer.tsx",
                         lineNumber: 9,
                         columnNumber: 17
@@ -260,32 +270,33 @@ const Footer = ()=>{
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "text-gray-950 dark:text-white h-16 justify-center items-center text-sm flex font-normal",
+                        className: "mt-4 text-gray-950 dark:text-white h-16 justify-center items-center text-sm flex font-normal",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
                                 strokeWidth: 1.75,
-                                className: "text-sm text-gray-900 dark:text-white"
+                                className: "text-sm text-gray-900 dark:text-white hidden lg:block"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/footer/footer.tsx",
-                                lineNumber: 12,
-                                columnNumber: 126
+                                lineNumber: 13,
+                                columnNumber: 131
                             }, this),
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
+                                className: "hidden lg:block",
                                 children: "  kenzinlawson  "
                             }, void 0, false, {
                                 fileName: "[project]/src/components/footer/footer.tsx",
-                                lineNumber: 12,
-                                columnNumber: 204
+                                lineNumber: 13,
+                                columnNumber: 225
                             }, this),
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
-                                className: "dark:text-white/50 text-sm",
+                                className: "dark:text-white/50 text-sm hidden lg:block",
                                 children: "|  "
                             }, void 0, false, {
                                 fileName: "[project]/src/components/footer/footer.tsx",
-                                lineNumber: 12,
-                                columnNumber: 232
+                                lineNumber: 13,
+                                columnNumber: 281
                             }, this),
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
@@ -293,23 +304,23 @@ const Footer = ()=>{
                                 className: "text-sm text-gray-900 dark:text-white"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/footer/footer.tsx",
-                                lineNumber: 12,
-                                columnNumber: 286
+                                lineNumber: 13,
+                                columnNumber: 351
                             }, this),
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
                                 children: "  kenzi.lawson@example.com  "
                             }, void 0, false, {
                                 fileName: "[project]/src/components/footer/footer.tsx",
-                                lineNumber: 12,
-                                columnNumber: 364
+                                lineNumber: 13,
+                                columnNumber: 429
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
                                 className: "dark:text-white/50 text-sm",
                                 children: "|  "
                             }, void 0, false, {
                                 fileName: "[project]/src/components/footer/footer.tsx",
-                                lineNumber: 13,
+                                lineNumber: 14,
                                 columnNumber: 13
                             }, this),
                             " ",
@@ -318,33 +329,33 @@ const Footer = ()=>{
                                 className: "text-sm text-gray-900 dark:text-white"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/footer/footer.tsx",
-                                lineNumber: 13,
+                                lineNumber: 14,
                                 columnNumber: 67
                             }, this),
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
-                                children: "  kenzi.lawson@example.com  "
+                                children: "  (+91)9819392912  "
                             }, void 0, false, {
                                 fileName: "[project]/src/components/footer/footer.tsx",
-                                lineNumber: 13,
+                                lineNumber: 14,
                                 columnNumber: 146
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/footer/footer.tsx",
-                        lineNumber: 12,
+                        lineNumber: 13,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {}, void 0, false, {
                         fileName: "[project]/src/components/footer/footer.tsx",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         className: "max-w-6xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/footer/footer.tsx",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 17
                     }, this)
                 ]
@@ -355,7 +366,7 @@ const Footer = ()=>{
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$textured$2d$triangles$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/footer/footer.tsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 13
             }, this)
         ]

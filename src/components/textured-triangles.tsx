@@ -7,7 +7,7 @@ const TexturedTriangles: React.FC = () => {
   return (
     <>
       <div 
-        className="absolute bottom-0 left-0 w-0 h-0 border-r-[50vw] border-b-[100vh] border-transparent border-b-gray-800 overflow-hidden"
+        className="absolute bottom-0 left-0 w-0 h-0 border-r-[50vw] border-b-[75vh] lg:border-b-[calc(100vh-64px)] border-transparent border-b-gray-800 overflow-hidden"
         style={{
           backgroundImage: `url("${noisePattern}")`,
           backgroundBlendMode: 'overlay',
@@ -22,7 +22,7 @@ const TexturedTriangles: React.FC = () => {
         />
       </div>
       <div 
-        className="absolute bottom-0 right-0 w-0 h-0 border-l-[50vw] border-b-[100vh] border-transparent border-b-gray-800 overflow-hidden"
+        className="absolute bottom-0 right-0 w-0 h-0 border-l-[50vw] border-b-[75vh] lg:border-b-[calc(100vh-64px)] border-transparent border-b-gray-800 overflow-hidden"
         style={{
           backgroundImage: `url("${noisePattern}")`,
           backgroundBlendMode: 'overlay',
