@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/sihagaksh/Desktop/flowfinnese/src/lib/utils.ts"],"sourcesContent":["import { clsx, type ClassValue } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n"],"names":[],"mappings":";;;AAAA;AACA;;;AAEO,SAAS,GAAG,GAAG,MAAoB;IACxC,OAAO,CAAA,GAAA,2JAAA,CAAA,UAAO,AAAD,EAAE,CAAA,GAAA,qIAAA,CAAA,OAAI,AAAD,EAAE;AACtB"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///home/sihagaksh/Desktop/flowfinnese/src/components/MaxWidthWrapper.tsx"],"sourcesContent":["import { cn } from \"../lib/utils\";\n\nconst MaxWidthWrapper = ({\n  className,\n  children,\n}: {\n  className?: string;\n  children: React.ReactNode;\n}) => {\n  return (\n    <div\n      className={cn(\n        \"h-full mx-auto w-full max-w-screen-xl px-2.5 md:px-20\",\n        className\n      )}\n      >\n          {children}\n    </div>\n  );\n};\nexport default MaxWidthWrapper;"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,kBAAkB,CAAC,EACvB,SAAS,EACT,QAAQ,EAIT;IACC,qBACE,8OAAC;QACC,WAAW,CAAA,GAAA,mHAAA,CAAA,KAAE,AAAD,EACV,yDACA;kBAGG;;;;;;AAGX;uCACe"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///home/sihagaksh/Desktop/flowfinnese/src/app/dashboard/page.tsx"],"sourcesContent":["import MaxWidthWrapper from \"@/components/MaxWidthWrapper\";\n\nconst App = () => {\n    return(\n        <>\n            <MaxWidthWrapper className=\"min-w-[60vw]\">\n                <div className=\"h-[calc(100vh-64px)] content-center\">\n                    <div className=\"max-w-5xl h-[60vh] border-2 border-green-600 dark:border-rose-800 rounded-xl shadow-lg shadow-black/10 bg-slate-50 dark:bg-inherit mx-auto my-auto\">\n                    </div>\n                </div>\n            </MaxWidthWrapper>\n        </>\n    );\n}\nexport default App;"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,MAAM;IACR,qBACI;kBACI,cAAA,8OAAC,qIAAA,CAAA,UAAe;YAAC,WAAU;sBACvB,cAAA,8OAAC;gBAAI,WAAU;0BACX,cAAA,8OAAC;oBAAI,WAAU;;;;;;;;;;;;;;;;;AAMnC;uCACe"}},
+    {"offset": {"line": 80, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 91, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 91, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,12 +1,14 @@
 "use client"
-import { Button } from "@/components/ui/button";
 import { Check,Star } from "lucide-react";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import { useTheme } from "next-themes";
+import Footer from "@/components/footer/footer";
 const App = () => {
   return(
     <>
-    <section>
+    <section className="relative w-screen">
+    <div className="hidden lg:block -z-50 font-semibold text-8xl rotate-90 absolute top-[38vh] -right-[20vh] text-black/10 dark:text-white/10">
+            flow<span className="text-green-600/10 dark:text-rose-600/10">finesse</span>
+    </div>
         <MaxWidthWrapper className="h-[calc(100vh-64px)] w-full flex items-center justify-center">
          <section className="h-full lg:w-3/5 w-full flex flex-col items-center justify-center">
          <h1 className="text-4xl -mt-36 leading-loose lg:text-left text-center lg:text-6xl" style={{lineHeight: "1.6"}}>
@@ -66,7 +68,7 @@ const App = () => {
                   />
                 </div>
 
-                <div className="flex flex-col justify-between items-center sm:items-start">
+                <div className="flex flex-col justify-between items-center sm:items-start mt-1 lg:mt-0">
                   <div className="flex gap-0.5">
                     <Star className="h-4 w-4 text-green-600 fill-green-600 dark:text-rose-600 dark:fill-rose-600"/>
                     <Star className="h-4 w-4 text-green-600 fill-green-600 dark:text-rose-600 dark:fill-rose-600"/>
@@ -82,8 +84,19 @@ const App = () => {
          <section className="h-full w-0 lg:w-2/5">
          </section>
         </MaxWidthWrapper>
+        
+        <div className="h-[150vh] w-full flex-col items-center justify-center">
+            <div className="h-1/2 w-full flex">
+                <div className="h-full w-1/2"></div>  
+                <div className="h-full w-1/2 bg-[#e7e8e9]"></div>  
+            </div>
+            <div className="h-1/2 w-full flex">
+                <div className="h-full w-1/2 bg-[#e7e8e9]"></div>  
+                <div className="h-full w-1/2"></div>
+            </div> 
+        </div>
       </section>
-      
+      <Footer/>
     </>
   );
 }

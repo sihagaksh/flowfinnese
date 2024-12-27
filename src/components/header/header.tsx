@@ -17,7 +17,7 @@ const Navbar =  () => {
           <div className="h-full flex items-center space-x-4">
             <>
                 <Link
-                  href="/"
+                  href="/signup"
                   className={buttonVariants({
                     size: "sm",
                     variant: "ghost",
@@ -26,7 +26,7 @@ const Navbar =  () => {
                   Sign up
                 </Link>
                 <Link 
-                    href="/"
+                    href="/login"
                   className={buttonVariants({
                     size: "sm",
                     variant: "ghost",
