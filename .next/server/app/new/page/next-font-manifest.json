@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/new/page": [
+      "static/media/1cXxaUPOAJv9sG4I_DJWiHGFq8Kk1Q-s.p.72b6dec7.woff2",
+      "static/media/1cX0aUPOAJv9sG4I_DJeM1SQhuCp__AOoQ-s.p.fad36039.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

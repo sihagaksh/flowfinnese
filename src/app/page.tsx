@@ -2,6 +2,7 @@
 import { Check,Star } from "lucide-react";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Footer from "@/components/footer/footer";
+import GridDesign from "@/components/Grid";
 const App = () => {
   return(
     <>
@@ -84,17 +85,9 @@ const App = () => {
          <section className="h-full w-0 lg:w-2/5">
          </section>
         </MaxWidthWrapper>
-        
-        <div className="h-[150vh] w-full flex-col items-center justify-center">
-            <div className="h-1/2 w-full flex">
-                <div className="h-full w-1/2"></div>  
-                <div className="h-full w-1/2 bg-[#e7e8e9]"></div>  
-            </div>
-            <div className="h-1/2 w-full flex">
-                <div className="h-full w-1/2 bg-[#e7e8e9]"></div>  
-                <div className="h-full w-1/2"></div>
-            </div> 
-        </div>
+        <section className="min-h-[200vh]">
+        <GridDesign/>
+        </section>
       </section>
       <Footer/>
     </>

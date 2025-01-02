@@ -8,7 +8,7 @@ import { Button } from "../ui/button";
 const Navbar =  () => {
   const { theme, setTheme } = useTheme();
   return (
-    <nav className="sticky z-[100] h-16 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/65 backdrop-blur-lg transition-all dark:bg-inherit dark:border-zinc-600 dark:bg-opacity-65 dark:backdrop-blur-lg">
+    <nav className="sticky z-[100] h-16 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/65 backdrop-blur-md transition-all dark:bg-inherit dark:border-zinc-600 dark:bg-opacity-65 dark:backdrop-blur-lg">
       <MaxWidthWrapper className="">
         <div className="flex h-14 items-center justify-between border-b border-zinc-200 dark:border-zinc-600">
           <Link href="/" className="flex z-40 font-semibold text-2xl">

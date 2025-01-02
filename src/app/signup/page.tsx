@@ -50,10 +50,10 @@ export default function SignUpPage() {
           </Button>
           <div className="relative">
             <div className="absolute inset-0 flex items-center">
-              <span className="w-full border-t border-gray-200" />
+              <span className="w-full border-t border-gray-400" />
             </div>
             <div className="relative flex justify-center text-xs uppercase">
-              <span className="bg-gray-100 px-2 text-gray-700 dark:bg-[#1c1917] dark:text-gray-400">
+              <span className="bg-[#e5e5e6] px-2 text-gray-700 dark:bg-[#1c1917] dark:text-gray-400">
                 Or continue with
               </span>
             </div>

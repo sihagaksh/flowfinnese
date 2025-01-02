@@ -212,7 +212,7 @@ function SignUpPage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute inset-0 flex items-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "w-full border-t border-gray-200"
+                                        className: "w-full border-t border-gray-400"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/signup/page.tsx",
                                         lineNumber: 53,
@@ -226,7 +226,7 @@ function SignUpPage() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative flex justify-center text-xs uppercase",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "bg-gray-100 px-2 text-gray-700 dark:bg-[#1c1917] dark:text-gray-400",
+                                        className: "bg-[#e5e5e6] px-2 text-gray-700 dark:bg-[#1c1917] dark:text-gray-400",
                                         children: "Or continue with"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/signup/page.tsx",
